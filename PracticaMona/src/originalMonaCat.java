@@ -57,7 +57,7 @@ public class originalMonaCat {
     public void Actividad(){
         System.out.println("El octogato esta en forma habitual");
     }
-    public void Accesosrios(){
-        System.out.println("Sin Accesorios");
+    public void Accesosrios(){System.out.println("Sin Accesorios");}
+    public void profesion(){System.out.println("Normal");
     }
 }
