@@ -9,7 +9,8 @@ public class main {
                 31,07,1980);
         personaje HermonieJean=new personaje("Hermonie Jean Granger","Hija de muggles",
                 "Humana","Femenino","Castanio","Marrones",
-                "Clara","Empleada del Departamento de Regulacion y Control de Criaturas Magicas", "Gryffindor",19,9,1979);
+                "Clara","Empleada del Departamento de Regulacion y Control de Criaturas Magicas",
+                "Gryffindor",19,9,1979);
         personaje PetterPitt=new personaje("Peteer Pettigres","Pura",
                 "Humano","Masculino","Calvo","azul acuoso",
                 "Palido","Mortifigo","Gryffindor",1,9,1960);

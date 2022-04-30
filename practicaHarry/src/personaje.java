@@ -2,16 +2,16 @@ public class personaje {
     private String Nombre, TipodeSangre, Especie, Gnenero, Pelo, ColorOjos, ColorPiel, Ocupacion, Casa;
     private int dia, mes, year;
 
-    public personaje(String nombre, String tipodeSangre, String especie, String gnenero, String pelo, String colorOjos, String colorPiel, String ocupacion, String casa, int dia, int mes, int year) {
-        Nombre = nombre;
-        TipodeSangre = tipodeSangre;
-        Especie = especie;
-        Gnenero = gnenero;
-        Pelo = pelo;
-        ColorOjos = colorOjos;
-        ColorPiel = colorPiel;
-        Ocupacion = ocupacion;
-        Casa = casa;
+     personaje(String nombre, String tipodeSangre, String especie, String gnenero, String pelo, String colorOjos, String colorPiel, String ocupacion, String casa, int dia, int mes, int year) {
+        this.Nombre = nombre;
+        this.TipodeSangre = tipodeSangre;
+        this.Especie = especie;
+        this.Gnenero = gnenero;
+        this.Pelo = pelo;
+        this.ColorOjos = colorOjos;
+        this.ColorPiel = colorPiel;
+        this.Ocupacion = ocupacion;
+        this.Casa = casa;
         this.dia = dia;
         this.mes = mes;
         this.year = year;
@@ -48,17 +48,11 @@ public class personaje {
                 ", year=" + year +
                 '}';
     }
+
 }
 
 
-/*
-    public boolean setNombre(String nombre) {
-        if(!nombre.isEmpty()){
-            this.nombre=nombre;
-            return true;
-        }else
-            return false;
-    }
+
 /*
     public boolean setTipodeSangre(String tipodeSangre) {
         if(!tipodeSangre.isEmpty()){
